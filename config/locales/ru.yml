@@ -83,7 +83,7 @@ ru:
         name: 'Имя'
         email: 'E-mail'
         password: 'Пароль'
-        password_confirmation: 'Подтверждение пароля NEW'
+        password_confirmation: 'Подтверждение пароля'
         current_password: 'Текущий пароль'
       event:
         datetime: 'Дата и Время'
@@ -170,7 +170,7 @@ ru:
     address: 'Место события'
     description: 'Описание'
     password: 'Пароль'
-    password_confirmation: 'Подтверждение пароля NEW'
+    password_confirmation: 'Подтверждение пароля'
     current_password: 'Текущий пароль'
     remember_me: 'Запомнить пароль'
     save: 'Сохранить'
