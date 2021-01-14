@@ -1,7 +1,7 @@
 ru:
   devise:
     links:
-      forgot_password: "Забыли пароль?"
+      forgot_password: "Забыли пароль??"
       didnt_receive_instructions: "Не получили инструкции для подтверждения пароля?"
       sign_in_with: "Зайти с помощью "
       send_pass_instr_btn: "Выслать инструкции"
