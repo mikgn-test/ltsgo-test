@@ -1,5 +1,3 @@
-# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
-
 en:
   devise:
     links:
@@ -72,3 +70,130 @@ en:
       not_saved:
         one: "1 error prohibited this %{resource} from being saved:"
         other: "%{count} errors prohibited this %{resource} from being saved:"
+  activerecord:
+    models:
+      user: 'User'
+      event: 'Event'
+      subscription: 'Subscription'
+      comment: 'Comment'
+    attributes:
+      user:
+        name: 'Name'
+        email: 'Email'
+        password: 'Password'
+        password_confirmation: 'Password confirmation'
+        current_password: 'Current password'
+      event:
+        datetime: 'Date and Time'
+        title: 'Title'
+        address: 'Location'
+        description: 'Description'
+      subscription:
+        user_email: 'Email'
+        user_name: 'Username'
+      comment:
+        user: 'User'
+        body: 'Comment'
+        user_name: 'Name'
+  nav:
+    sign_up: 'Sign up'
+    sign_up_submit: 'Submit'
+    log_in: 'Log in'
+    log_out: 'Log out'
+    profile: 'Profile'
+  events:
+    event_images: 'Event images'
+    editind_event: 'Editing Event'
+    new_event: 'New Event'
+    create_event: 'Create Event'
+    delete_event: "Delete Event"
+    no_events_title: 'No Events'
+    notice:
+      created: 'Event was successfully created'
+      updated: 'Event was successfully updated'
+      deleted: 'Event was successfully deleted'
+      image_added: 'Image was successfully saved'
+      image_not_added: 'Error'
+      image_deleted: 'Image was successfully deleted'
+    alert: "Are you sure want to delete this event?"
+  comments:
+    alert:
+      confirm: "Are you sure want to delete this comment?"
+    notice:
+      created: 'Comment was successfully created'
+      updated: 'Comment was successfully updated'
+      deleted: 'Comment was successfully deleted'
+  users:
+    anonymous: "Anonymous"
+    edit_user: 'Edit User'
+    edit_password: 'Edit Password'
+    notice:
+      signed_up: 'Signed up successfully!'
+      updated: 'The changes have been saved'
+      destroyed:
+    alert: 'Are you sure want to delete your account'
+  subscriptions:
+    subscribe: 'Subscribe'
+    subscribers: 'Subscribers'
+    check_events: "Check user events"
+    subscribed:
+      zero: 'Subscribers'
+      one: 'Subscriber'
+      few: "%{count} Subscribers"
+      many: "%{count} Subscribers"
+      other: "%{count} Subscribers"
+    alert: 'Are you sure want to unsubscribe?'
+    notice:
+      subscribed: 'You have successfully subscribed to the event'
+      unsubscribed: 'Unsubscribed successfully'
+    user_subscribed: 'user is already subscribed to the event'
+    email_subscribed: 'email is already subscribed to the event'
+  form:
+    user_email: 'Email'
+    errors:
+      already_exists: ' address is already taken'
+      user:
+        name: 'Name'
+        email: 'Email'
+      self_event: ' cannot subscribe to own event'
+      zero: 'no errors'
+      one: 'error'
+      few: '%{count} errors'
+      many: '%{count} errors'
+      other: '%{count} errors'
+    comment: "New comment"
+    name: 'Name'
+    email: 'Email'
+    datetime: 'Date and Time'
+    title: 'Title'
+    address: 'Location'
+    description: 'Description'
+    password: 'Password'
+    password_confirmation: 'Password confirmation'
+    current_password: 'Current password'
+    remember_me: 'Remember me'
+    save: 'Save'
+    back: 'Back'
+    change_password: 'Change password'
+    danger_zone: 'Danger zone'
+    cancel_account: 'Cancel my account'
+    characters_minimum: 'characters minimum'
+    avatar: 'Profile picture'
+    add_image: 'Add image from event'
+  event_mailer:
+    new_subscription: 'New subscription'
+    author: 'Author'
+    title: 'Title'
+    name: 'New subscriber'
+    email: 'Email'
+    event: 'Event'
+    datetime: 'Date and time'
+    owner: 'Owner'
+    subscription:
+      subject: "New subscriber to"
+    comment:
+      subject: "New comment to"
+      title: "New comment"
+      author: "Author"
+    image:
+      subject: "uploaded a new picture to"

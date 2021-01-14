@@ -25,7 +25,7 @@ git clone git@github.com:mikgn/ltsgo.git
 ```
 2.  Migrations
 ```
-    rake db:create db:migrate
+    rake db:create db:migrate db:seed
 ```
 3.  Run rails server locally by
 ```
