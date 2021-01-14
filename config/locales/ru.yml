@@ -29,9 +29,9 @@ ru:
       unlock_instructions:
         subject: "Инструкции по разблокировке учётной записи"
       email_changed:
-        subject: ""
+        subject: "Электронная почта изменена"
       password_change:
-        subject: ""
+        subject: "Пароль изменен"
     omniauth_callbacks:
       failure: "Вы не можете войти в систему с учётной записью из %{kind}б так как \"%{reason}\"."
       success: "Вход в систему выполнен с учётной записью из %{kind}."
@@ -51,7 +51,7 @@ ru:
       signed_up_but_unconfirmed: "В течение нескольких минут вы получите письмо с инструкциями по подтверждению вашей учётной записи."
       update_needs_confirmation: "Ваш аккаунт успешно обновлен, но необходимо подтвердить ваш новый адрес email. Пожалуйста, проверьте свою электронную почту и нажмите на ссылку \"Подтвердить\", чтобы завершить обновления email."
       updated: "Ваша учётная запись изменена."
-      updated_but_not_signed_in: ""
+      updated_but_not_signed_in: "Ваша учетная запись была успешно обновлена, но, поскольку ваш пароль был изменен, вам необходимо войти в систему снова."
     sessions:
       signed_in: "Вход в систему выполнен"
       signed_out: "Выход из системы выполнен"
@@ -91,8 +91,8 @@ ru:
         address: 'Место события'
         description: 'Описание'
       subscription:
-        user_email: ''
-        user_name: ''
+        user_email: 'Эл. адрес'
+        user_name: 'Имя пользователя'
       comment:
         user: 'Пользователь'
         body: 'Комментарий'
@@ -105,7 +105,7 @@ ru:
     profile: 'Профиль'
   events:
     event_images: 'Фото с мероприятия'
-    editind_event: ''
+    editind_event: 'Редактирование события'
     new_event: 'Новое Событие'
     create_event: 'Создать Событие'
     delete_event: "Удалить Событие"
@@ -150,7 +150,7 @@ ru:
     user_subscribed: 'пользователь уже подписан на событие'
     email_subscribed: 'e-mail уже использован для подписки на событие'
   form:
-    user_email: ''
+    user_email: 'Эл. адрес'
     errors:
       already_exists: ' уже зарегистрирован'
       user:
@@ -184,7 +184,7 @@ ru:
   event_mailer:
     new_subscription: 'Новый подписчик'
     author: 'Автор'
-    title: ''
+    title: 'заглавие'
     name: 'Имя'
     email: 'Почта'
     event: 'Событие'
